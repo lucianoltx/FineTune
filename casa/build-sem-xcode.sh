@@ -66,7 +66,7 @@ base.update({
     # build local: não deixa o Sparkle trocar por conta própria (assinatura ad-hoc ≠ Developer ID);
     # checagem manual em Settings › Updates continua possível.
     'SUEnableAutomaticChecks': False,
-    'LLBuildNote': 'build local sem Xcode (apps/audiodesk/finetune-build) com patch PopoverHost keep-on-screen',
+    'LLBuildNote': 'build local sem Xcode (~/Projects/FineTune, branch casa) — patches: ver git log upstream/main..casa',
 })
 plistlib.dump(base, open(sys.argv[2], 'wb'))
 EOF
